@@ -12,6 +12,25 @@
     --azul-fraco: #003566ff;
     --amarelo-queimado: #ffc300ff;
     --ouro: #ffd60aff;
+    --branco: #ffffff;
     --fonte-titulo: "Grey Qo", cursive;
     --fonte-texto: "Gupter", serif;
+}
+
+body{
+    background-color: var(--azul-fraco);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--fonte-texto);
+}
+
+.caixa-principal{
+    background-color: var(--preto);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
 }
